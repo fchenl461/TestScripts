@@ -118,7 +118,7 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round time="10" name="10 Minutes"/>
+      <round time="1" name="1 Minutes"/>
     </controller>
     <testcase name="Testcase1">
       <test>
