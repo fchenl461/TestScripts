@@ -29,7 +29,7 @@
     <links>  </links>
   </basics>
   <resources>
-    <resource name="test.har" type="har" path="REPOSITORY/Tests1/test.har"/>
+    <resource name="20170531_mini.har" type="har" path="REPOSITORY/HOME/20170531_mini.har"/>
   </resources>
   <testnodes>
     <cloud name="Cloud-1" type="EC2" instantiate="startAll" terminate="stopAll" reboot="never" amount="1" config="AppvanceCloud.cloud" username="appvance" password="appvance"/>
@@ -116,7 +116,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="har" resource="test.har"/>
+        <run name="Untitled1" langtype="har" resource="20170531_mini.har"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
@@ -132,6 +132,7 @@
   <integrations xmlns="www.pushtotest.com/tm5">
     <integration type="Penetration">
       <opt name="domainfilter" value="all"/>
+      <opt name="spiderlevel" value="2"/>
       <opt name="attackmode" value="adaptative"/>
       <opt name="adaptativelevel" value="5"/>
       <opt name="ignorequeryparameter" value="_"/>
