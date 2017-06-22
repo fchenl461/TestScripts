@@ -132,9 +132,8 @@
   <integrations xmlns="www.pushtotest.com/tm5">
     <integration type="Penetration">
       <opt name="domainfilter" value="all"/>
-      <opt name="spiderlevel" value="2"/>
+      <opt name="spiderlevel" value="1"/>
       <opt name="attackmode" value="adaptative"/>
-      <opt name="adaptativelevel" value="5"/>
       <opt name="ignorequeryparameter" value="_"/>
     </integration>
   </integrations>
